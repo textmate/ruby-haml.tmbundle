@@ -111,6 +111,21 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>^(\s*):css$</string>
+			<key>end</key>
+			<string>^(?!\1\s)</string>
+			<key>name</key>
+			<string>source.css.embedded.filter.haml</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.css</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>^(\s*):javascript$</string>
 			<key>end</key>
 			<string>^(?!\1\s)</string>
