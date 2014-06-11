@@ -14,9 +14,9 @@ $TM_RUBY "${TM_BUNDLE_SUPPORT}/renderer.rb"
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>@r</string>
+	<string>@b</string>
 	<key>name</key>
-	<string>Render</string>
+	<string>Build HTML</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
