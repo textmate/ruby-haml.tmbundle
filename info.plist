@@ -7,7 +7,15 @@
 	<key>contactName</key>
 	<string>Kevin Ballard</string>
 	<key>description</key>
-	<string>&lt;a href="http://unspace.ca/discover/haml"&gt;HTML Abstraction Markup Language&lt;/a&gt; is a templating engine for Ruby on Rails.</string>
+	<string>Template engine for Ruby on Rails.</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>E41A81CD-C3CF-4544-BD0C-18D9C4AFD1EC</string>
+			<string>7812CE72-A7CD-4DB0-9771-DBE8CC42F03C</string>
+		</array>
+	</dict>
 	<key>name</key>
 	<string>Ruby Haml</string>
 	<key>uuid</key>
