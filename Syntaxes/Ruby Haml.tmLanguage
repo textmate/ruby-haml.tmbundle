@@ -83,7 +83,7 @@
 			<key>begin</key>
 			<string>^(\s*):coffee(script)?$</string>
 			<key>end</key>
-			<string>^(?!\1\s)</string>
+			<string>^(?!\1\s|\s*\n)</string>
 			<key>name</key>
 			<string>source.coffee.embedded.filter.haml</string>
 			<key>patterns</key>
@@ -98,7 +98,7 @@
 			<key>begin</key>
 			<string>^(\s*):scss$</string>
 			<key>end</key>
-			<string>^(?!\1\s)</string>
+			<string>^(?!\1\s|\s*\n)</string>
 			<key>name</key>
 			<string>source.scss.embedded.filter.haml</string>
 			<key>patterns</key>
@@ -113,7 +113,7 @@
 			<key>begin</key>
 			<string>^(\s*):css$</string>
 			<key>end</key>
-			<string>^(?!\1\s)</string>
+			<string>^(?!\1\s|\s*\n)</string>
 			<key>name</key>
 			<string>source.css.embedded.filter.haml</string>
 			<key>patterns</key>
@@ -128,7 +128,7 @@
 			<key>begin</key>
 			<string>^(\s*):javascript$</string>
 			<key>end</key>
-			<string>^(?!\1\s)</string>
+			<string>^(?!\1\s|\s*\n)</string>
 			<key>name</key>
 			<string>source.js.embedded.filter.haml</string>
 			<key>patterns</key>
