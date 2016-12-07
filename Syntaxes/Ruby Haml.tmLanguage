@@ -410,7 +410,7 @@
 		<key>rubyline</key>
 		<dict>
 			<key>begin</key>
-			<string>=|-|~</string>
+			<string>=|!=|-|~</string>
 			<key>contentName</key>
 			<string>source.ruby.embedded.haml</string>
 			<key>end</key>
